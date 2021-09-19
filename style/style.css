@@ -18,6 +18,7 @@ body {
     justify-content: center;
     margin: 0px;
     padding: 0px;
+    height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
     background-color: var(--primary-1);
     background-image: url(../images/pattern-background-desktop.svg);
