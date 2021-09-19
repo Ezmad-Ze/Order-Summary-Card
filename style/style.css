@@ -1,0 +1,106 @@
+:root {
+    --primary-1 :hsl(225, 100%, 94%);
+    --primary-2:hsl(245, 75%, 52%);
+    --neutral-1:hsl(225, 100%, 98%);
+    --neutral-2:hsl(224, 23%, 55%);
+    --neutral-3:hsl(223, 47%, 23%);
+}
+
+html {
+    min-width:100px ;
+    font-size: 100%;
+    box-sizing: border-box; 
+}
+
+body {
+    min-width:100px ;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--primary-1);
+    background-image: url(../images/pattern-background-desktop.svg); 
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.card-container{
+    background-color: var(--neutral-1);
+    min-width:100px ;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+.card-item{
+    min-width:100px ;
+    margin: 0px;
+    border-radius: 20px;
+    height: 200px;
+    background-color: var(--neutral-1);
+}    
+.card-img{ 
+    min-width:100px ;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    margin-bottom: 0px;  
+} 
+
+p,h1,.numb{
+    text-align: center;
+    color: var(--neutral-3);
+}
+.content{
+    text-align: center;
+}
+.card-inside-container{
+    min-width:100px ;
+    display: flex;
+    justify-content:space-evenly;   
+}
+.card-right a{
+    transition: 0.2s;
+}
+.card-right a:hover{
+    color: var(--neutral-3);
+    text-decoration:none;
+}
+.card-left{
+    flex-grow: 0.5;
+} 
+.card-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    min-width:300px ;
+    background-color: var(--primary-2);
+    border-radius: 10px;
+    color:var(--neutral-1);
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--neutral-2);
+}
+.card-cancel{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.card-cancel a{
+    text-decoration: none;
+    color: var(--neutral-2);
+}
+.card-cancel a:hover{
+    color: var(--neutral-3);
+}
