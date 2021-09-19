@@ -26,14 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](.\images\Screenshots\Mobile_View.png)
-![](.\images\Screenshots\PC_View.png)
+![](./images/Screenshots/Mobile_View.png)
+![](./images/Screenshots/PC_View.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Ezmad-Ze/Order-Summary)
-- Live Site URL: [Add live site URL here](Couldn't make it work in github pages)
+- Live Site URL: [Add live site URL here](https://ezmad-ze.github.io/Order-Summary-Card/)
 
 ## My process
 
