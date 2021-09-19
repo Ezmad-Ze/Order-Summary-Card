@@ -52,7 +52,7 @@ body {
     margin-bottom: 0px;  
 } 
 
-p,h1,.numb{
+p,h1,.numb,.content{
     text-align: center;
     color: var(--neutral-3);
 }
@@ -88,7 +88,7 @@ p,h1,.numb{
     text-align: center;
     height: 50px;
     width: 350px;
-    margin-top: 10px;
+    margin-top: 40px;
     transition: all 0.5s;
     cursor: pointer;
 }
