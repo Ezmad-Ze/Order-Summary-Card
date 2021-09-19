@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ezmad-Ze/Order-Summary)
+- Solution URL: [Add solution URL here](https://github.com/Ezmad-Ze/Order-Summary-Card)
 - Live Site URL: [Add live site URL here](https://ezmad-ze.github.io/Order-Summary-Card/)
 
 ## My process
